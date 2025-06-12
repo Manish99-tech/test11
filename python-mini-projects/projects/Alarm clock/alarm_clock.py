@@ -41,6 +41,7 @@ Label(root,text="Set Time",font=("Helvetica 15 bold")).pack()
 
 frame = Frame(root)
 frame.pack()
+print("frame")
 
 hour = StringVar(root)
 hours = ('00', '01', '02', '03', '04', '05', '06', '07',
